@@ -1,0 +1,134 @@
+/* -CSS Reset- */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End CSS Reset */
+
+body {
+  background-color: #d8bfd8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 3em;
+  display: inline;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-bottom: .7em;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+nav {
+  float: right;
+  padding-top: 1em;
+}
+
+header {
+  padding: 2em;
+  background-color: #f1def1;
+}
+
+img {
+  display: block;
+  width: 60vw;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+nav li {
+  display: inline;
+  padding: 1em;
+  margin: 1em;
+  color: black;
+  border: solid 1px black;
+}
+
+nav li:hover {
+  background-color: #f3eacb;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+div {
+  margin-top: 1em;
+}
+
+#about {
+  background-color: #f3eacb;
+  margin-top: 50px;
+  padding: 1em;
+  padding-top: 20px;
+  margin-bottom: 5em;
+  height: 350px;
+}
+
+#about img {
+  float: right;
+  width: 40vw;
+  max-width: 500px;
+}
+
+#about p {
+  max-width: 600px;
+}
+
+h3 {
+  text-align: center;
+  padding-bottom: 20px;
+}
